@@ -35,6 +35,7 @@ def arrayFactorsForULA(numAntennaElements, thetas, d, lambdac, angleWithArrayNor
 
     thetas=thetas[:, np.newaxis]#thetas[:]# %make it a column vector
     normDistance=d/lambdac
+    normDistance= 0.5
     #print(thetas.shape)
     if angleWithArrayNormal == 1:
         temp = -1j*2*np.pi*normDistance*np.sin(thetas)

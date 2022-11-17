@@ -11,7 +11,7 @@ import PointingPattern
 import ArrayFactor
 import spherical_plot
 
-d=1
+d=17
 lambdac=2
 normDistanceX=d/lambdac
 normDistanceY=d/lambdac
